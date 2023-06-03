@@ -16,7 +16,6 @@ img {
 
 .all {
     flex-grow: 1;
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -578,7 +577,6 @@ img {
     .header {
         padding-left: 32px;
         padding-right: 32px;
-        flex-direction: column;
         padding-top: 16px;
         padding-bottom: 16px;
     }
@@ -588,8 +586,8 @@ img {
     }
 
     .menu_link {
-        font-size: 18px;
-        padding: 20px 14px;
+        font-size: 13px;
+        padding: 14px 9px;
     }
 
     .content_texts {
@@ -625,7 +623,6 @@ img {
     }
 
     .menu {
-        flex-direction: column;
         padding-top: 16px;
         padding-bottom: 16px;
     }
@@ -668,5 +665,16 @@ img {
 
     .contacts_maps {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu_link {
+        font-size: 15px;
+        padding: 20px 9px;
+    }
+
+    .button {
+        width: 110px;
     }
 }
